@@ -1,2 +1,4 @@
+User-Agent: YandexBot
+Disallow:
 User-Agent: *
 Disallow: /
